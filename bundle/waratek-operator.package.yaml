@@ -1,0 +1,4 @@
+packageName: waratek-operator
+channels:
+  - name: alpha
+    currentCSV: waratek-operator.v0.0.1

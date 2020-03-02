@@ -1,0 +1,25 @@
+---
+# tasks file for warateksecure
+- name: Install prerequisite packages
+  yum:
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - git
+    - zip
+    - unzip
+
+- name: Add the waratek user
+  user:
+    name: waratek
+    shell: /bin/bash
+    groups: waratek
+
+- name: Perform the deployment.
+    #hosts: "{{ servers }}"
+    hosts: all
+    user: waratek
+    sudo: yes
+    tasks:
+      - name: Transfer and execute the script
+          script: roles/warateksecure/files/waratek-op-deploy.sh {{ signedurl }}

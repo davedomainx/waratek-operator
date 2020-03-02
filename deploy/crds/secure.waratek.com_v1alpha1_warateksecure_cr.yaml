@@ -1,0 +1,7 @@
+apiVersion: secure.waratek.com/v1alpha1
+kind: WaratekSecure
+metadata:
+  name: example-warateksecure
+spec:
+  # Add fields here
+  size: 3

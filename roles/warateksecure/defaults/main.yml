@@ -1,0 +1,4 @@
+---
+# defaults file for warateksecure
+hosts: all
+signedurl: "https://download.aws.waratek.com/custom/openshift/waratek-product-1.0.0-b2.zip?Expires=1614162076&Signature=N5Fey3nWeMe1GQoNDeHsPT7cMXZCdmNTK~8D7viHfGfrpZbsChNdjs96XheBRsM51Lrm-RyDqRzv~XyK~aq2-yQ8NXOw92OoSxpaBEVAOXccmsEGdawS9m9SxYdUGryVi1WMGl6iCglVmMj8~QC247xOcQ-SGerkwRsl51JILbsJsBk9Liew4xAVDyqLt6CdVpKHnLfGtWFL6iuU1Bno5E-og4Z2xAtvPZKMlNSX2ZUJBFjUb5kdi89UhnAgoO5j7cLzLp7S8RNh43fyuJZ8nI3WFuaSnpyH2dcSKZjMleozEuugI65zxy4e2PrlmpUAiAGPxT27d7XqUFXHNePXmA__&Key-Pair-Id=APKAILSBYWPNQSYULA6Q"
