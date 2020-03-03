@@ -178,7 +178,6 @@ spec:
   - supported: true
     type: AllNamespaces
   maturity: alpha
-  replaces: waratek-operator.v0.0.0
   keywords:
     - java
       application-security
